@@ -31,4 +31,4 @@ Android Debug Bridge，简称`adb`，在[android developer](https://developer.an
  5. 是否有Android虚拟机或是其他会扰乱adb连接的软硬件正在运行；
 
 若问题依然存在建议重启设备以及计算机。
-因为小天才对于其操作系统的`adb`，`fastboot`等命令的阉割过于严重，命令的使用将在使用时讲解，详细可查询android developer以及命令行命令`adb halp`。
+因为小天才对于其操作系统的`adb`，`fastboot`等命令的阉割过于严重，命令的使用将在使用时讲解，详细可查询android developer以及命令行命令`adb help`。
