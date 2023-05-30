@@ -32,3 +32,17 @@ Android Debug Bridge，简称`adb`，在[android developer](https://developer.an
 
 若问题依然存在建议重启设备以及计算机。
 因为小天才对于其操作系统的`adb`，`fastboot`等命令的阉割过于严重，命令的使用将在使用时讲解，详细可查询android developer以及命令行命令`adb help`。
+
+# ROOT
+
+在Unix以及类Unix系统，诸如Linux，Android系统下，系统的最高也是最底层的权限，即根权限，超级用户，就是`root`，因此，在折腾Android设备时，为了更高的权限，`root`是绕不开的，不过在Android中，为了用户的安全性，`root`是无法被简单获取的，因此，也诞生了给Android获取root权限的root管理器，常见的有SuperSU，[Magisk](https://github.com/topjohnwu/Magisk)和新兴的[KernelSU](https://kernelsu.org/)，而在本教程中我们使用目前反应性最广，社区生态最完备的Magisk进行`root`，Magisk的优点有：开源免费；使用简单；使用外部挂着的`/system`分区，不对系统本身造成影响；支持通过模块对设备进行修改；拥有完善的社区生态，拥有诸如Magisk Delta等社区改版。
+
+使用Magisk进行root的方法很简单，这里教授简单的线刷方法：
+
+ 1. 在设备上安装Magisk Manager软件；
+
+ 2. 提取系统的`/boot`分区，使用Magisk Manager对提取的`boot.img`镜像进行修补；
+
+ 3. 刷入修补后的`boot.img`镜像。
+
+听起来这很简单，但是在小天才电话手表上实现较为困难，因为小天才将其系统中的`fastboot`命令进行了阉割，导致我们无法对设备进行简单的线刷，而是得使用更加底层的`9008`进行刷机。
