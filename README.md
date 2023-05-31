@@ -59,7 +59,7 @@ Qualcomm Emergency Download mode，通常称为Qualcomm EDL mode，正式名称�
 
 ## 鸣谢：
 ReX iMoo Team 全体；
-特别鸣谢：iMoo Toolkit开发者：Ling，冲之律者，wangzm5773；小天才电话手表高版本root方法发现者：早茶光
+特别鸣谢：iMoo Toolkit开发者：Ling，冲之律者，wangzm5773；小天才电话手表高版本root方法发明者：早茶光
 
 ## 借物表：
 [wiki](https://en.wikipedia.org/wiki/Wiki);
